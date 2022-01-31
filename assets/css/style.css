@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+.title {
+  margin-top: 120px;
+  color: rgba(215, 116, 116, 1);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.main-title {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+
+  margin-top: 50px;
+}
+.parent {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.disk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+.yellow {
+  background: rgb(202, 162, 98);
+}
+.child {
+  width: 190px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+}
+.fa-orange {
+  background: rgb(233, 94, 25);
+}
+.fa-yellow {
+  background: rgb(226, 176, 95);
+}
+.fa-red {
+  background: darkred;
+}
+.orange {
+  background: rgb(216, 88, 23);
+}
+.red {
+  background: rgb(116, 0, 0);
+}
+.contant {
+  display: flex;
+  margin-top: 87px;
+  
+}
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  padding: 30px;
+}
+.title-content {
+    margin-left: 144px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 36px;
+}
+.text-content {
+    width: 501px;
+    height: 96px;
+    margin-left: 144px;
+  margin-top: 26px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6C6C6C;
+}
+.ico {
+  width: 70px;
+  height: 70px;
+}
+.icon {
+  width: 57px;
+  height: 68px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.last{
+    margin-right: 152px;
+}
